@@ -6,6 +6,16 @@ function run() {
   clearInterval(intervalId);
   intervalId = setInterval(decrement, 1000);
 }
+run();
+
+function reset() {
+  run();
+  score = 0;
+  number = 15;
+  intervalId;
+
+  decrement();
+}
 
 function decrement() {
   number--;
@@ -21,23 +31,26 @@ function decrement() {
 function stop() {
   clearInterval(intervalId);
 }
+
+$("#reset").on("click", function() {
+  stop();
+
+  alert("your final score is" + score);
+});
 $("#inlineRadio11").on("click", function() {
   $("#answeredright").empty();
-  $("#answeredright").append((score += 1));
+  score += 1;
 });
 
 $("#inlineRadio22").on("click", function() {
   $("#answeredright").empty();
-  $("#answeredright").append((score += 1));
+  score += 1;
 });
 
 $("#inlineRadio13").on("click", function() {
   $("#answeredright").empty();
-  $("#answeredright").append((score += 1));
+  score += 1;
 });
-
-$("#reset").on("click", function() {
-  stop();
-  alert("your final score is" + score);
+$("#startclock").on("click", function() {
+  reset();
 });
-run();

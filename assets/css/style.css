@@ -1,0 +1,10 @@
+.container {
+  background-image: url("https://overlookjournal.com/wp-content/uploads/2018/05/download.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+p {
+  color: red;
+}
