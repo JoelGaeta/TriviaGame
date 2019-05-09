@@ -24,17 +24,18 @@ p {
 .form-check-inline {
   text-align: center;
   position: relative;
-  left: 145px;
-  color: red;
+  left: 194px;
+  color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   font-size: 23px;
+  background-color: black;
 }
 
 #question2 {
   position: relative;
-  left: 300px;
-  color: red;
+  left: 358px;
+  color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   font-size: 23px;
@@ -42,8 +43,8 @@ p {
 
 #question3 {
   position: relative;
-  left: 330px;
-  color: red;
+  left: 391px;
+  color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   font-size: 23px;
@@ -51,5 +52,16 @@ p {
 
 .btn {
   position: relative;
-  left: 350px;
+  left: 413px;
+}
+
+#q1 {
+  background-color: blue;
+}
+#q2 {
+  background-color: blue;
+}
+
+#q3 {
+  background-color: blue;
 }
