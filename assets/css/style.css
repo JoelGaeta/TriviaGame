@@ -1,10 +1,55 @@
-.container {
+body,
+.jumbotron {
+  height: 150vh;
   background-image: url("https://overlookjournal.com/wp-content/uploads/2018/05/download.jpeg");
-  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+}
+
+.display-4 {
+  text-align: center;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 p {
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+  font-size: 35px;
+}
+
+.form-check-inline {
+  text-align: center;
+  position: relative;
+  left: 145px;
   color: red;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 23px;
+}
+
+#question2 {
+  position: relative;
+  left: 300px;
+  color: red;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 23px;
+}
+
+#question3 {
+  position: relative;
+  left: 330px;
+  color: red;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 23px;
+}
+
+.btn {
+  position: relative;
+  left: 350px;
 }
